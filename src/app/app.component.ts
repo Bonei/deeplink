@@ -17,7 +17,7 @@ export class MyApp {
 
   pages: Array<{title: string, component: any}>;
 
-  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, public deeplinks: Deeplinks) {
+  constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen, private deeplinks: Deeplinks) {
     this.initializeApp();
 
     this.pages = [

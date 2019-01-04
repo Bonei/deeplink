@@ -35,7 +35,7 @@ export class ListPage {
   }
 
   shareItem(item) {
-    this.socialSharing.share("Check this item:  demoapp://list/lists/" + item.id, item.title, item.note, item.icon)
+    this.socialSharing.share("Check this item:  demoapp://demoapp/lists/" + item.id, item.title, item.note, item.icon)
     .then(() => {
 
     })
